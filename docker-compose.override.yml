@@ -35,7 +35,7 @@ services:
   orderdb:
     container_name: orderdb
     environment:
-      SA_PASSWORD: "Rahul1234567"
+      SA_PASSWORD: "SloWey1234567"
       ACCEPT_EULA: "Y"
     restart: always
     ports:
@@ -43,7 +43,7 @@ services:
     volumes:
       - orderdb-data:/var/opt/mssql
     healthcheck:
-      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'Rahul1234567' -Q 'select 1'"]
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'SloWey1234567' -Q 'select 1'"]
       interval: 10s
       timeout: 10s
       retries: 3
@@ -122,7 +122,7 @@ services:
     container_name: ordering.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "ConnectionStrings__OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=Rahul1234567;TrustServerCertificate=True" 
+      - "ConnectionStrings__OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=SloWey1234567;TrustServerCertificate=True" 
       - "EventBusSettings__HostAddress=amqp://guest:guest@rabbitmq:5672"
       - "ElasticConfiguration__Uri=http://elasticsearch:9200"
     depends_on:

@@ -85,6 +85,6 @@ affinity: {}
 env:
   values:
     - name: SA_PASSWORD
-      value: "Rahul1234567"
+      value: "SloWey1234567"
     - name: ACCEPT_EULA
       value: "Y"      

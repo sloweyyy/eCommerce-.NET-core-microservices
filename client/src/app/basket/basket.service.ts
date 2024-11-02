@@ -127,7 +127,7 @@ export class BasketService {
   private createBasket(): Basket {
     //since we have created class
     const basket = new Basket();
-    localStorage.setItem('basket_username', 'slowey'); //TODO: rahul can be replaced with LoggedIn User
+    localStorage.setItem('basket_username', 'slowey');
     return basket;
   }
 
