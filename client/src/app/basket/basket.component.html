@@ -48,7 +48,7 @@
                         </div>
                       </div>
                     </th>
-                    <td class="align-middle"><strong>{{item.price | currency:'INR'}}</strong></td>
+                    <td class="align-middle"><strong>{{item.price | currency:'VND'}}</strong></td>
                     <td class="align-middle">
                       <div class="d-flex align-items-center">
                           <i (click)="decrementItem(item)" class="fa fa-minus-circle text-warning mr-2" style="cursor: pointer; font-size: 2em;"></i>
@@ -57,7 +57,7 @@
                       </div>
                   </td>
                   <td class="align-middle">
-                    <strong>{{item.price * item.quantity | currency: 'INR'}}</strong>
+                    <strong>{{item.price * item.quantity | currency: 'VND'}}</strong>
                 </td>
                 <td class="align-middle text-center">
                     <a class="text-danger">

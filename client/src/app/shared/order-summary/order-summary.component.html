@@ -5,7 +5,7 @@
    <ul class="list-unstyled mb-4" *ngIf="(basketService.basketTotal$ | async) as total">
         <li class="d-flex justify-between py-3 border-bottom">
           <strong class="text-muted">Total: </strong>
-          <strong>{{total.total | currency: 'INR'}}</strong>
+          <strong>{{total.total | currency: 'VND'}}</strong>
       </li>
   </ul>
 </div>

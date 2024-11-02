@@ -21,23 +21,23 @@ namespace Ordering.Infrastructure.Data
             {
                 new()
                 {
-                    UserName = "rahul",
-                    FirstName = "Rahul",
-                    LastName = "Sahay",
-                    EmailAddress = "rahulsahay@eCommerce.net",
-                    AddressLine = "Bangalore",
-                    Country = "India",
+                    UserName = "slowey",
+                    FirstName = "phuc",
+                    LastName = "truong",
+                    EmailAddress = "truonglevinhphuc2006@gmail.com",
+                    AddressLine = "Ho Chi Minh city",
+                    Country = "Vietnam",
                     TotalPrice = 750,
-                    State = "KA",
-                    ZipCode = "560001",
+                    State = "Ho Chi Minh",
+                    ZipCode = "700000",
 
                     CardName = "Visa",
-                    CardNumber = "1234567890123456",
-                    CreatedBy = "Rahul",
+                    CardNumber = "1234567890",
+                    CreatedBy = "slowey",
                     Expiration = "12/25",
                     Cvv = "123",
                     PaymentMethod = 1,
-                    LastModifiedBy = "Rahul",
+                    LastModifiedBy = "slowey",
                     LastModifiedDate = new DateTime(),
                 }
             };

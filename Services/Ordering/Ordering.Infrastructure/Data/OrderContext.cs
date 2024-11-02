@@ -20,11 +20,11 @@ namespace Ordering.Infrastructure.Data
                 {
                     case EntityState.Added:
                         entry.Entity.CreatedDate = DateTime.Now;
-                        entry.Entity.CreatedBy = "rahul"; //TODO: Replace with auth server
+                        entry.Entity.CreatedBy = "slowey"; //TODO: Replace with auth server
                         break;
                     case EntityState.Modified:
                         entry.Entity.LastModifiedDate = DateTime.Now;
-                        entry.Entity.LastModifiedBy = "rahul"; //TODO: Replace with auth server
+                        entry.Entity.LastModifiedBy = "slowey"; //TODO: Replace with auth server
                         break;
                 }
             }
